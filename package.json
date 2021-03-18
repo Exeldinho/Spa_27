@@ -1,0 +1,23 @@
+{
+  "name": "spa_27",
+  "version": "1.0.0",
+  "description": "Single page application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Exeldinho/Spa_27"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "node.js",
+    "mongoose",
+    "mongodb",
+    "react"
+  ],
+  "author": "Roman Dumanskyi",
+  "license": "ISC"
+}
