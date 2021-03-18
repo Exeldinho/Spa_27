@@ -1,9 +1,11 @@
-body {
-    background-color: #141D2121;
-    margin: 0;
+html {
+    height:100%;
+    box-sizing: border-box;
 }
 
-/* need or not?
+/* * {
+    box-sizing: inherit;
+
 header {
     background-color: dimgray;
     padding: 0;
@@ -11,18 +13,17 @@ header {
     border: 0;
 } */
 
-h1 {
-    padding: 3px;
+.page-header {
+    padding: 0;
     margin: 0;
     border: 0;
     text-align: center;
-    color: #FFECFEFF;
-    background-color: dimgray;
+    color: #fff;
+    background-color: rgb(64, 60, 63);
 }
 
-ul {
-    text-align: right;
-    justify-content: right;
+.page-header h1 {
+margin: 5px;
 }
 
 .logger {
@@ -30,14 +31,35 @@ ul {
 }
 
 .logger h3 {
-    font-size: 22px;
-    margin: 5px;
+    font-size: 20px;
+    margin: 2px;
 }
 
 .logger div {
-    padding: 3px;
+    padding: 4px;
 }
 
-footer {
+body {
+    height:100%;
+    background-color: #141D2121;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+section {
+    height: 100%
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.page-footer {
+    background-color: rgb(64, 60, 63);
     text-align: center;
+    color: #fff;
+    padding: 20px;
+    font: 1.1em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
 }
