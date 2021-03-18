@@ -1,0 +1,43 @@
+body {
+    background-color: #141D2121;
+    margin: 0;
+}
+
+/* need or not?
+header {
+    background-color: dimgray;
+    padding: 0;
+    margin: 0;
+    border: 0;
+} */
+
+h1 {
+    padding: 3px;
+    margin: 0;
+    border: 0;
+    text-align: center;
+    color: #FFECFEFF;
+    background-color: dimgray;
+}
+
+ul {
+    text-align: right;
+    justify-content: right;
+}
+
+.logger {
+    text-align: center;
+}
+
+.logger h3 {
+    font-size: 22px;
+    margin: 5px;
+}
+
+.logger div {
+    padding: 3px;
+}
+
+footer {
+    text-align: center;
+}
