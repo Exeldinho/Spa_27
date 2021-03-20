@@ -1,5 +1,6 @@
 import React from'react';
 import '../style/styles.css'
+import Footer from './components/footer'
 
 export const MainPage = () => {
 return (
@@ -7,12 +8,10 @@ return (
     <head>
         <meta charset="UTF-8"/>
             <title>Spa_27</title>
-            <link href="../style/styles.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
     <section>
-        <div class="wrapper">
-
+        <div>
             <header class="page-header">
                 <h1>Single Page Application</h1>
             </header>
@@ -37,12 +36,8 @@ return (
                             </div>
                     </div>
                 </div>
-                <div id="root">
-                </div>
             </main>
-            <footer class="page-footer">
-                <em>©All right reserved by project_27</em>
-            </footer>
+          <Footer/>
         </div>
     </section>
     </body>

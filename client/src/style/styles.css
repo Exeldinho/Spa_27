@@ -52,7 +52,7 @@ body {
     margin: 0;
 }
 
-body, .page-footer {
+body, .footer {
     font: 1.1em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -60,15 +60,14 @@ section {
     height: 100%
 }
 
-.wrapper {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
-
-.page-footer {
-    background-color: rgb(64, 60, 63);
-    text-align: center;
+.footer {
+    margin-top: 1rem;
+    padding: 1rem;
     color: #fff;
-    padding: 20px;
+    background-color: rgb(64, 60, 63);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }

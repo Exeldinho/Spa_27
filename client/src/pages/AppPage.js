@@ -1,24 +1,25 @@
 import React from'react';
-import '../style/styles.css'
-import Footer from "./components/footer.js";
+import '../style/styles.css';
+import Footer from './components/footer.js'
 
-export const AboutPage = () => {
+export const AppPage = () => {
     return (
         <html lang="en">
         <head>
             <meta charSet="UTF-8"/>
-                <title>About project</title>
+                <title>Work Field</title>
         </head>
         <body>
         <header>
-            <a href="/">Back to main page</a>
+            <a href="/">Logout</a>
         </header>
 
         <section>
             <article>
-                Description about application. Used technologies etc..
+                Application main functionalities
             </article>
         </section>
+
 
         <Footer/>
 
