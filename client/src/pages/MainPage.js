@@ -4,6 +4,7 @@ import Header from './components/header'
 import Nav from './components/nav'
 import Footer from './components/footer'
 import Logger from "./components/logger";
+import NameForm from "./components/NameForm";
 
 export const MainPage = () => {
 return (
@@ -19,6 +20,7 @@ return (
             <main class="page-body">
                 <Nav/>
                 <Logger/>
+                <NameForm/>
             </main>
           <Footer/>
         </div>
